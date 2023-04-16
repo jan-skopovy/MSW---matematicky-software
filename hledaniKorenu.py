@@ -9,7 +9,7 @@ def polynomialniFce(x, derive=0):
         return(-x**2 + 6*x +1)
 
 def exponencialniFce(x, derive=0):
-    """y=5^(3*x-2)-1"""
+    """y= 5^(3*x-2)-1"""
     if derive == 0:
         return(5**(3*x-2)-1)
     else:
