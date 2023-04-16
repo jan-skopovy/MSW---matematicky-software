@@ -36,7 +36,6 @@ def puleniIntervalu(fce,a,b,p=0.001):
         else:
             a=x0
         #print(f'KROK: {steps}, x = {x0}, y = {fce(x0)}')
-        #a časem {start_time - datetime.datetime.now}
     return(f'Metoda půlení intervalu: KROK:{steps}. s výsledkem x = {x0} a časem: {datetime.datetime.now() - start_time}')
 
 def metodaTecen(fce, x, p=0.001):
